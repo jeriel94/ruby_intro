@@ -35,7 +35,6 @@ away_team = 1
 
 if home_team > away_team
     puts "winner winner chicken dinner"
-
 elsif home_team == away_team
     puts "boring ass tie"
 else
