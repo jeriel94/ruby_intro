@@ -31,9 +31,9 @@ puts die2
 total = die1 + die2
 puts "The total is: #{total}"
 
-if total == 7||11
+if total == 7|| total == 11
     puts "YOU WIN"
-elsif total == 2||3||12
+elsif total == 2||total == 3||total == 12
     puts "YOU LOSE"
 else
     puts "THE POINT IS #{total}"
