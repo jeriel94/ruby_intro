@@ -7,7 +7,9 @@
 profile = {
     "name" => "Ben",
     "location" => {"city" => "Chicago", "state" => "IL"},
-    "status" => "Doing stuff" #hash rocket operator for key-value pairs
+    "timeline" => [
+        {"status"=>"Doing stuff", "occured_at" => "6:30 PM"},
+        {"status" => "Still teaching...", "occured_at" => "7:30 PM"}] #hash rocket operator for key-value pairs
 }
 puts profile
 # Accessing data from the hash
@@ -17,5 +19,8 @@ puts profile["name"]
 puts profile["location"]["city"]
 
 # More Complex Hashes
+profile["status"] = "Still teaching..."
+profile["phone"] = "646"
+puts profile
 
-p
+puts profile["timeline"][-1]["status"] #gets "I'm still teaching"
