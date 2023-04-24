@@ -4,6 +4,15 @@
 
 # Hashes are lists of *key-value pairs*
 
+profile = {
+    "name" => "Ben",
+    "location" => "Chicago",
+    "status" => "Doing stuff" #hash rocket operator for key-value pairs
+}
+puts profile
 # Accessing data from the hash
+
+
+
 
 # More Complex Hashes
