@@ -6,13 +6,16 @@
 
 profile = {
     "name" => "Ben",
-    "location" => "Chicago",
+    "location" => {"city" => "Chicago", "state" => "IL"},
     "status" => "Doing stuff" #hash rocket operator for key-value pairs
 }
 puts profile
 # Accessing data from the hash
 
+puts profile["name"]
 
-
+puts profile["location"]["city"]
 
 # More Complex Hashes
+
+p
