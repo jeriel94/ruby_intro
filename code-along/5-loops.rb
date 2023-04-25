@@ -19,6 +19,14 @@ loop do
     taco = tacos[index]
 
     puts "#{taco} tacos!"
-    
+
     index = index + 1 #moves along the index until the break conddition is met aka index==5
+end
+
+
+#shorthand
+
+for taco in tacos
+    #do something variable in data
+    puts "#{taco} tacos!"
 end
