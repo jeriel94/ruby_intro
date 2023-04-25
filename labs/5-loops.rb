@@ -1,7 +1,3 @@
-# To run this code, be sure your current working directory
-# is the same as where this file is located and then run:
-# ruby 5-loops.rb
-
 # EXERCISE
 # Build a deck of cards. Given the following arrays, use a loop
 # (or two... hint, hint) to write out every combination to the
@@ -16,6 +12,12 @@ suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 # 2 of Spades
 # 3 of Clubs
 # ...
+
+for suit in suits
+for rank in ranks
+    puts "#{rank} of #{suit}"
+end
+end
 
 # CHALLENGE
 # Deal a poker hand. Shuffle the deck and "deal" (i.e. display) a 5 card hand (i.e. 5 cards from the deck).
